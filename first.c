@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main() {
-    int favouriteNumber = 13;
-    printf("My favourite number is:");
-    printf("%d", favouriteNumber);
+    int firstBug, favouriteNumber = 13;
+
+    printf("My favourite number is: %d", favouriteNumber);
+    printf("\nMy first bug is: %d", firstBug);
+
     return 0;
 }
